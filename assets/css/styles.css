@@ -93,20 +93,20 @@ section{
     border-radius:60%;
     margin:13rem;
     box-shadow: -6px 8px 51px -1px #020904;
-    /*animation: floatImage 4s ease-in-out infinite;*/
+    animation: floatImage 4s ease-in-out infinite;
 }
 
-/*@keyframes floatImage {*/
-/*    0%{*/
-/*        transform: translateY(0);*/
-/*    }*/
-/*    50%{*/
-/*        transform: translateY(-2.4rem);*/
-/*    }*/
-/*    100%{*/
-/*        transform: translateY(0);*/
-/*    }*/
-/*}*/
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 .home-content h3{
     font-size: 3.2rem;
@@ -187,6 +187,7 @@ span{
     margin:3rem ;
     border-radius: 50%;
     box-shadow: -6px 8px 51px -1px #070710;
+    animation: floatImage 4s ease-in-out infinite;
 
 }
 
