@@ -181,6 +181,7 @@ span{
     background: var(--second-bg-color);
 }
 
+
 .about-img img{
     width:23vw;
     margin:2rem ;
@@ -522,7 +523,7 @@ span{
 }
 
 .footer-iconTop a{
-   display:inline-flex;
+    display:inline-flex;
     justify-content:center;
     align-items: center;
     padding:.8rem;
@@ -543,6 +544,5 @@ span{
 
 
 /*======================================BREAKPOINT=========================*/
-
 
 
